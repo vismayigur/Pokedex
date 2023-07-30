@@ -1,4 +1,5 @@
 import pokemon from './pokemon.jsx'
+import './pokedex.css'
 
 /* 
 This is the component for the pokedex page. 
