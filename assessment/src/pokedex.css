@@ -1,1 +1,54 @@
 /* Add css styles for pokedex.tsx in this file */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.red-banner {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+.black-banner {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:focus,
+.button:active {
+  outline: none; /* Remove default focus and active outlines */
+  border: 2px solid black; /* Apply custom outline on focus and active */
+}
+  
+.content {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.select-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
